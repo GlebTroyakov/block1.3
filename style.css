@@ -430,20 +430,13 @@ body {
         margin-left: 40px;
     }
 
-    /* __________swiper brands__________*/
-
-    /*.swiper {*/
-    /*    width: 100%;*/
-    /*    padding: 0;*/
-    /*    margin: 0;*/
-    /*}*/
-
     .swiper-wrapper {
         width: 100%;
         box-sizing: border-box;
-        padding-left: 20px;
+        padding-left: 34px;
         padding-right: 0;
         margin-right: 0;
+        gap: 12px;
         /*justify-content: space-around;*/
     }
 
