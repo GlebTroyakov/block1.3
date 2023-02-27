@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('fonts/TTLakes-Regular.eot');
+    src: url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTLakes-Regular.woff2') format('woff2'),
+    url('fonts/TTLakes-Regular.woff') format('woff'),
+    url('fonts/TTLakes-Regular.ttf') format('truetype'),
+    url('fonts/TTLakes-Regular.svg#TTLakes-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'TT Lakes Bold';
+    src: url('fonts/TTLakes-Bold.eot');
+    src: url('fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTLakes-Bold.woff2') format('woff2'),
+    url('fonts/TTLakes-Bold.woff') format('woff'),
+    url('fonts/TTLakes-Bold.ttf') format('truetype'),
+    url('fonts/TTLakes-Bold.svg#TTLakes-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 *{box-sizing: border-box;}
 
 body {
@@ -29,7 +53,8 @@ body {
 }
 
 .title-before-navigator__h1 {
-    font-family: "TT Lakes-Bold", "TT Lakes", sans-serif;
+    font-family: 'TT Lakes Bold', 'TT Lakes', sans-serif;
+    /*font-family: "TT Lakes-Bold", "TT Lakes", sans-serif;*/
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
@@ -49,7 +74,7 @@ body {
 .navigator div a {
     text-decoration: none;
     color: #7E7E82;
-    font-family: "TT Lakes", sans-serif;
+    font-family: 'TT Lakes', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -77,7 +102,7 @@ body {
 }
 
 .about-us p {
-    font-family: "TT Lakes",  sans-serif;
+    font-family: 'TT Lakes', sans-serif;
     font-weight: 200;
     color: #1B1C21;
     font-size: 14px;
@@ -104,14 +129,14 @@ body {
 
 .text-block-about-us__bottom_open,
 .text-block-about-us__bottom_close {
-    margin: 0 0 20px 15px;
-    font-family: "TT Lakes", sans-serif;
+    margin: 15px 0 20px 15px;
+    font-family: 'TT Lakes', sans-serif;
     font-weight: 400;
     font-size: 16px;
     border: none;
     background: transparent;
     text-align: left;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 .text-block-about-us__bottom_open-icon {
     margin-right: 16px;
@@ -131,7 +156,7 @@ body {
 }
 
 .brands__title {
-    font-family: "TT Lakes",  sans-serif;
+    font-family: 'TT Lakes', sans-serif;
     font-weight: 200;
     color: #7E7E82;
     font-size: 16px;
@@ -312,7 +337,7 @@ body {
         align-items: center;
         justify-content: space-between;
         margin: 16px 0 20px 16px;
-        font-family: "TT Lakes", sans-serif;
+        font-family: 'TT Lakes', sans-serif;
         border: none;
         font-size: 16px;
         background: transparent;
@@ -366,7 +391,7 @@ body {
     .make_order__text,
     .status-order__text{
         display: inline;
-        font-family: "TT Lakes", sans-serif;
+        font-family: 'TT Lakes', sans-serif;
         color: #1B1C21;
         margin-right: 8px;
     }
