@@ -217,7 +217,7 @@ body {
         margin-right: 250px;
     }
 
-    /* __________navigator__________*/
+     __________navigator__________
     .title-before-navigator__h1 {
         margin-left: 20px;
     }
@@ -232,6 +232,7 @@ body {
         margin-top: 16px;
         align-items: flex-start;
         padding-bottom: 30px;
+        justify-content: space-between;
     }
 
     .about-us p {
@@ -276,7 +277,7 @@ body {
         padding-left: 36px;
     }
 
-    .swiper {
+    .brands__swiper {
         height: 160px;
         /*height: 100%;*/
     }
@@ -329,7 +330,6 @@ body {
     .brands__btn-close {
         display: none;
     }
-
 }
 
 
@@ -337,10 +337,6 @@ body {
 /*________________for computers__________________*/
 
 @media screen and (min-width: 1120px) {
-
-    body {
-        width: 1120px;
-    }
 
     /* __________header__________*/
     .header {
@@ -392,17 +388,9 @@ body {
         clear: both;
         flex-wrap: wrap;
         margin-left: 35px;
-        justify-content: flex-start;
+        justify-content: space-between;
         overflow-x: unset;
-        width: 1100px;
-    }
-
-    .navigator div {
-        margin-right: 10px;
-    }
-
-    .navigator div:last-child {
-        margin-left: 20px;
+        margin-right: 35px;
     }
 
     /* __________about us__________*/
@@ -413,7 +401,7 @@ body {
 
     .about-us__image {
         align-self: self-start;
-        margin-right: 25px;
+        margin-right: 40px;
         border-radius: 5px;
         width: 500px;
     }
@@ -430,14 +418,21 @@ body {
         margin-left: 40px;
     }
 
-    .swiper-wrapper {
+    /* __________swiper brands__________*/
+    .brands {
         width: 100%;
-        box-sizing: border-box;
-        padding-left: 34px;
-        padding-right: 0;
-        margin-right: 0;
-        gap: 12px;
-        /*justify-content: space-around;*/
+        padding: 0;
+        margin: 0;
+    }
+
+    .brands__swiper {
+        width: 96%;
+    }
+
+    .swiper-wrapper {
+        justify-content: space-between;
+        width: 800px;
+        padding-left: 0;
     }
 
     .swiper-slide {
