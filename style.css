@@ -389,7 +389,7 @@ body {
     }
 
     .make_order__text,
-    .status-order__text{
+    .status-order__text {
         display: inline;
         font-family: 'TT Lakes', sans-serif;
         color: #1B1C21;
@@ -443,18 +443,24 @@ body {
         margin-left: 40px;
     }
 
-    /* __________swiper brands__________*/
     .brands {
-        width: 100%;
         padding: 0;
         margin: 0;
     }
 
+    .brands__swiper {
+        display: flex;
+        height: 170px;
+        padding: 15px 0;
+    }
+
     .swiper-wrapper {
         /*justify-content: space-between;*/
-        padding-left: 30px;
-        padding-right: 0;
+        margin: 0 0 0 30px;
+        display: flex;
         gap: 16px;
+        flex-wrap: wrap;
+        padding: 0;
     }
 
     .swiper-slide {
