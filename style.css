@@ -313,7 +313,7 @@ body {
         width: 94% !important;
         padding-left: 16px;
         padding-right: 26px !important;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
         display: grid !important;
         grid-gap: 10px;
     }
@@ -329,10 +329,9 @@ body {
     .brands__btn-close,
     .brands__btn-show-more {
         display: flex;
-        /*display: block;*/
         align-items: center;
         justify-content: space-between;
-        margin: 16px 0 20px 16px;
+        margin: 16px 0 20px 28px;
         font-family: 'TT Lakes', sans-serif;
         border: none;
         font-size: 16px;
@@ -357,11 +356,11 @@ body {
 
 /*________________for tablets from __________________*/
 
-@media screen and (min-width: 920px) {
-    .swiper-wrapper {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
+/*@media screen and (min-width: 920px) {*/
+/*    .swiper-wrapper {*/
+/*        grid-template-columns: repeat(4, 1fr);*/
+/*    }*/
+/*}*/
 
 
 /*________________for computers from 1120 width__________________*/
@@ -455,14 +454,13 @@ body {
     }
 
     .brands__swiper {
-        /*display: flex;*/
         padding: 15px 0;
     }
 
     .swiper-wrapper {
         padding-left: 30px;
         padding-right: 26px;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         display: grid !important;
         grid-gap: 15px;
     }
@@ -473,34 +471,11 @@ body {
 
     .brands__btn-close,
     .brands__btn-show-more {
-        margin-left: 28px;
+        margin-left: 42px;
     }
 }
-
-/*________________for computers from 1380 width__________________*/
-
-@media screen and (min-width: 1380px) {
-    .swiper-wrapper {
-        padding-left: 30px;
-        padding-right: 26px;
-        grid-template-columns: repeat(5, 1fr);
-        display: grid;
-        grid-gap: 15px;
-    }
-}
-
-/*________________for computers from 1650 width__________________*/
 
 @media screen and (min-width: 1650px) {
-    .swiper-wrapper {
-        padding-left: 30px;
-        padding-right: 26px;
-        grid-template-columns: repeat(6, 1fr);
-        display: grid;
-        grid-gap: 15px;
-        padding-bottom: 20px;
-    }
-
     .brands__btn-show-more {
         display: none !important;
     }
