@@ -295,7 +295,8 @@ body {
         width: 100%;
         height: 100%;
         max-height: 100%;
-        padding-bottom: 16px;
+        padding: 0 0 15px 0;
+        margin: 0;
     }
 
     .brands__title {
@@ -305,25 +306,20 @@ body {
     .brands__swiper {
         height: 160px;
         /*height: 100%;*/
+        padding: 15px 0;
     }
 
     .swiper-wrapper {
-        padding-left: 26px;
-        padding-right: 26px;
-        margin: 0;
-        flex-wrap: wrap;
-        /*justify-content: space-between;*/
-        /*justify-content: space-around;*/
-        /*делает равномерным расстояние между брендами при растяжении но сокращает между крайним и правой границей*/
-        /*align-self: flex-start;*/
-        gap: 10px;
+        width: 94% !important;
+        padding-left: 16px;
+        padding-right: 26px !important;
+        grid-template-columns: repeat(3, 1fr);
+        display: grid !important;
+        grid-gap: 10px;
     }
 
     .swiper-slide {
         max-width: 224px;
-        /*margin: 0 0 6px 0;*/
-        /*padding: 0;*/
-        /*margin: 0;*/
     }
 
     .swiper-pagination {
@@ -359,7 +355,16 @@ body {
 
 
 
-/*________________for computers__________________*/
+/*________________for tablets from __________________*/
+
+@media screen and (min-width: 920px) {
+    .swiper-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+/*________________for computers from 1120 width__________________*/
 
 @media screen and (min-width: 1120px) {
 
@@ -450,7 +455,7 @@ body {
     }
 
     .brands__swiper {
-        display: flex;
+        /*display: flex;*/
         padding: 15px 0;
     }
 
