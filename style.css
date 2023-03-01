@@ -120,15 +120,15 @@ body {
 #btn_close_text {display: none;}
 
 .status-order__text,
-.make_order__text,
+.make-order__text,
 .header .profile,
 .header .chat,
 .header .call,
 .header__separate-line-first,
 .header__separate-line-thord {display: none;}
 
-.text-block-about-us__bottom_open,
-.text-block-about-us__bottom_close {
+.text-block-about-us__bottom-open,
+.text-block-about-us__bottom-close {
     margin: 15px 0 20px 15px;
     font-family: 'TT Lakes', sans-serif;
     font-weight: 400;
@@ -138,7 +138,7 @@ body {
     text-align: left;
     /*margin-top: 15px;*/
 }
-.text-block-about-us__bottom_open-icon {
+.text-block-about-us__bottom-open-icon {
     margin-right: 16px;
 }
 
@@ -372,7 +372,7 @@ body {
         background-color: #F8F8F8;
     }
 
-    .left_menu,
+    .left-menu,
     .header__logo,
     .header .call,
     .header .chat,
@@ -392,7 +392,7 @@ body {
         margin-left: 32px;
     }
 
-    .make_order__text,
+    .make-order__text,
     .status-order__text {
         display: inline;
         font-family: 'TT Lakes', sans-serif;
@@ -400,7 +400,7 @@ body {
         margin-right: 8px;
     }
 
-    .header .make_order,
+    .header .make-order,
     .header .status-order {
         display: flex;
         align-items: center;
