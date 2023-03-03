@@ -130,13 +130,6 @@ body {
 .text-block-about-us__bottom-open,
 .text-block-about-us__bottom-close {
     margin: 15px 0 20px 15px;
-    font-family: 'TT Lakes', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
-    background: transparent;
-    text-align: left;
-    /*margin-top: 15px;*/
 }
 .text-block-about-us__bottom-open-icon {
     margin-right: 16px;
@@ -177,18 +170,8 @@ body {
 }
 
 .swiper-slide {
-    box-sizing: border-box;
-    display: flex;
     max-width: 240px;
     max-height: 72px;
-    background: #FFFFFF;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    border-radius: 6px;
-    border: 1px #EAEAEA solid;
-    padding: 16px;
     /*width: auto; !*ширина слайдера*!*/
 }
 
@@ -212,6 +195,28 @@ body {
     display: none;
 }
 
+/* __________for block in whole file__________*/
+.button-show-more {
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+
+.brand-card {
+    box-sizing: border-box;
+    display: flex;
+    background: #FFFFFF;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px #EAEAEA solid;
+    padding: 16px;
+}
 
 
 /*________________for tablets__________________*/
@@ -258,6 +263,7 @@ body {
         align-items: flex-start;
         padding-bottom: 30px;
         justify-content: space-between;
+
     }
 
     .about-us p {
@@ -265,8 +271,8 @@ body {
         margin-left: 20px;
     }
 
-    .about-us__bottom_close,
-    .about-us__bottom_open {
+    .about-us__bottom-close,
+    .about-us__bottom-open {
         margin-top: 10px;
     }
 
@@ -285,8 +291,8 @@ body {
         overflow-y: hidden;
     }
 
-    .text-block-about-us__bottom_close,
-    .text-block-about-us__bottom_open {
+    .text-block-about-us__bottom-close,
+    .text-block-about-us__bottom-open {
         margin-left: 36px;
     }
 
@@ -332,10 +338,6 @@ body {
         align-items: center;
         justify-content: space-between;
         margin: 16px 0 20px 28px;
-        font-family: 'TT Lakes', sans-serif;
-        border: none;
-        font-size: 16px;
-        background: transparent;
     }
 
     .brands__btn-show-more-icon {

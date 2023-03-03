@@ -146,13 +146,13 @@
                     <p>Дополнительный текст, чтоб при самом широком экране текст отображался не польностью (как на макете),
                         при этом кнопка "читать далее" не была просто заглушкой. </p>
                 </div>
-                <button class="text-block-about-us__bottom-open" id="btn_open_text" onclick="readMore()">
+                <button class="button-show-more text-block-about-us__bottom-open" id="btn_open_text" onclick="readMore()">
                     <svg class="text-block-about-us__bottom-open-icon" width="8" height="11" viewBox="0 0 8 11" fill="none"       xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50008 0.500076L4.00008 3.00008L1.50008 0.500076C1.22393 0.223933 0.776218 0.223933 0.500076 0.500076C0.223933 0.776218 0.223933 1.22393 0.500075 1.50008L3.29297 4.29297C3.68349 4.68349 4.31666 4.68349 4.70718 4.29297L7.50008 1.50008C7.77622 1.22393 7.77622 0.776218 7.50008 0.500076C7.22393 0.223933 6.77622 0.223933 6.50008 0.500076ZM6.50008 6.50008L4.00008 9.00008L1.50008 6.50008C1.22393 6.22393 0.776218 6.22393 0.500076 6.50008C0.223933 6.77622 0.223933 7.22393 0.500075 7.50008L3.29297 10.293C3.68349 10.6835 4.31666 10.6835 4.70718 10.293L7.50008 7.50008C7.77622 7.22393 7.77622 6.77622 7.50008 6.50008C7.22393 6.22393 6.77622 6.22393 6.50008 6.50008Z" fill="#41F6D7"/>
                     </svg>
                     <span class="text-block-about-us__bottom-open-text">Читать далее</span>
                 </button>
-                <button class="text-block-about-us__bottom-close" id="btn_close_text" onclick="readMore()">Скрыть</button>
+                <button class="button-show-more text-block-about-us__bottom-close" id="btn_close_text" onclick="readMore()">Скрыть</button>
             </div>
 
             <img class="about-us__image" src="cps.png" alt="CPS-table-with-logo">
@@ -163,7 +163,7 @@
 
             <div class="brands__swiper swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/lenovo.png" alt="Lenovo" width="108px" height="32px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -172,7 +172,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/samsung.png" alt="Samsung" width="116px" height="38.5px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,7 +181,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/viewsonic.png" alt="ViewSonic" width="128px" height="21px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -190,7 +190,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/bosch.png" alt="Bosch" width="128px" height="28.5px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -199,7 +199,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/hp.png" alt="hp" width="42px" height="42px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -208,7 +208,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/acer.png" alt="Acer" width="94px" height="24px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +217,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/sony.png" alt="Sony" width="128px" height="25.5px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/lenovo.png" alt="Lenovo" width="108px" height="32px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -235,7 +235,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/samsung.png" alt="Samsung" width="116px" height="38.5px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +244,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/apple.png" alt="Apple" width="44px" height="44px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -253,7 +253,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="brand-card swiper-slide">
                         <img class="swiper-slide__image" src="images/brands/sony.png" alt="Sony" width="128px" height="25.5px">
                         <a class="swiper-slide__link" href="#">
                             <svg class="swiper-slide__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -271,13 +271,13 @@
                 <script src="js/swiper.js"></script>
             </div>
 
-            <button class="brands__btn-show-more" onclick="showMore()">
+            <button class="button-show-more brands__btn-show-more" onclick="showMore()">
                 <svg class="brands__btn-show-more-icon" width="8" height="11" viewBox="0 0 8 11" fill="none"       xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50008 0.500076L4.00008 3.00008L1.50008 0.500076C1.22393 0.223933 0.776218 0.223933 0.500076 0.500076C0.223933 0.776218 0.223933 1.22393 0.500075 1.50008L3.29297 4.29297C3.68349 4.68349 4.31666 4.68349 4.70718 4.29297L7.50008 1.50008C7.77622 1.22393 7.77622 0.776218 7.50008 0.500076C7.22393 0.223933 6.77622 0.223933 6.50008 0.500076ZM6.50008 6.50008L4.00008 9.00008L1.50008 6.50008C1.22393 6.22393 0.776218 6.22393 0.500076 6.50008C0.223933 6.77622 0.223933 7.22393 0.500075 7.50008L3.29297 10.293C3.68349 10.6835 4.31666 10.6835 4.70718 10.293L7.50008 7.50008C7.77622 7.22393 7.77622 6.77622 7.50008 6.50008C7.22393 6.22393 6.77622 6.22393 6.50008 6.50008Z" fill="#41F6D7"/>
                 </svg>
                 <span class="brands__btn-show-more-text">Показать все</span>
             </button>
-            <button class="brands__btn-close">
+            <button class="button-show-more brands__btn-close">
                 <svg class="brands__btn-close-icon" width="8" height="11" viewBox="0 0 8 11" fill="none"       xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50008 0.500076L4.00008 3.00008L1.50008 0.500076C1.22393 0.223933 0.776218 0.223933 0.500076 0.500076C0.223933 0.776218 0.223933 1.22393 0.500075 1.50008L3.29297 4.29297C3.68349 4.68349 4.31666 4.68349 4.70718 4.29297L7.50008 1.50008C7.77622 1.22393 7.77622 0.776218 7.50008 0.500076C7.22393 0.223933 6.77622 0.223933 6.50008 0.500076ZM6.50008 6.50008L4.00008 9.00008L1.50008 6.50008C1.22393 6.22393 0.776218 6.22393 0.500076 6.50008C0.223933 6.77622 0.223933 7.22393 0.500075 7.50008L3.29297 10.293C3.68349 10.6835 4.31666 10.6835 4.70718 10.293L7.50008 7.50008C7.77622 7.22393 7.77622 6.77622 7.50008 6.50008C7.22393 6.22393 6.77622 6.22393 6.50008 6.50008Z" fill="#41F6D7"/>
                 </svg>
